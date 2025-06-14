@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | Edification Towards Eternity</title>
+  <link rel="stylesheet" href="homepage.css" />
+  <link rel="icon" href="logo_transparent.png" />
+</head>
+<body>
+  <div class="background">
+    <div class="infinity-path">&infin;</div>
+    <div class="site-name">Edification Towards Eternity</div>
+  </div>
+
+  <nav class="navbar">
+   <div class="logo-container">
+    <img src="logo_transparent.png" alt="Edification Towards Eternity Logo" class="logo" />
+    </div>
+    <ul class="nav-links">
+        <div class="nv">
+     <li><a href="homepage.html`    ">Home</a></li>
+        </div>
+
+        <div class="nv">
+      <li><a href="#">Devotionals</a></li>
+      </div>
+
+      <div class="nv">
+     <li><a href="video.html">Videos</a></li>
+     </div>
+
+     <div class="nv">
+     <li><a href="#">Youth</a></li>
+        </div>
+
+     <div class="nv">
+     <li><a href="#">Contact</a></li>
+     </div>
+  </ul>
+</nav>
+
+
+  <header class="hero">
+    <h1 id="welcome-msg">Welcome on your journey to eternity</h1>
+    <p>Growing in truth, love, and purpose through Christ</p>
+  </header>
+    <div class="card">
+        <p>"Our mission is to offer support, inspiration, 
+            and encouragement through God’s Word <br>and the powerful testimonies of His work in our lives".</p>
+    </div>
+
+  <main class="main-section">
+    <div class="card">Daily Devotionals</div>
+    <div class="card"><a href="video.html" class="v">videos</video></a></div>
+    <div class="card">New to Jesus</div>
+    <div class="card">Youth Section</div>
+    <div class="card">Join WhatsApp Community</div>
+    <div class="card">Prayer Requests</div>
+    <div class="card">Invite a Friend</div>
+    <div class="card">Ask a Question</div>
+</main>
+<section class="video-section">
+  <h2>Watch & Grow in Faith</h2>
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/pDI6G1YEMto" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
+
+
+  <footer class="footer">
+    <p>"Set your minds on things above, not on earthly things." – Colossians 3:2</p>
+  </footer>
+
+  <script>
+    // Personalize welcome message using name from localStorage
+    const userName = localStorage.getItem('eteUserName');
+    if (userName) {
+      document.getElementById('welcome-msg').textContent = `Welcome, ${userName} — Let’s journey together towards eternity`;
+    }
+  </script>
+</body>
+</html>

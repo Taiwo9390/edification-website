@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f1ec;
+  color: #333;
+}
+
+.video-header {
+  background-color:#064413;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-bottom: 5px solid #71b480;
+}
+
+.video-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.video-header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.video-box iframe {
+  width: 100%;
+  height: 215px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
